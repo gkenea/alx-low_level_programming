@@ -4,6 +4,7 @@
 /**
  * main: Entry point
  *
+ * @c[]: string member
  * Return: Always 1 (Success)
  */
 int main(void)
