@@ -2,7 +2,11 @@
 
 /**
  * main: Prints the size of various data types
- *
+ * @parametera: single character
+ * @parameterb: integer data type
+ * @parameterc: long integer data type
+ * @parameterd: long long integer data type
+ * @parametere:float data type
  * Return: Always 0 (Success)
  */
 
