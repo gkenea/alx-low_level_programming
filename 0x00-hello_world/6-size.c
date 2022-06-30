@@ -1,12 +1,8 @@
 #include <stdio.h>
 
 /**
- * main: Prints the size of various data types
- * @parametera: single character
- * @parameterb: integer data type
- * @parameterc: long integer data type
- * @parameterd: long long integer data type
- * @parametere:float data type
+ * main: Prints size
+ * @parameter: data types
  * Return: Always 0 (Success)
  */
 
