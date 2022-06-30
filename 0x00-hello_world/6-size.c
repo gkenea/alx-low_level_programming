@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main: Prints size
+ * main: 
  * @parameter: data types
  * Return: Always 0 (Success)
  */
