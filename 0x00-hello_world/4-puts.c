@@ -2,11 +2,12 @@
 
 /* main: Entry point */
 
+/* Description: To printout by using puts function */
+
 /* Return: Always 0 (Success) */
 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	/* To print out the text statement */
 	return (0);
 }
