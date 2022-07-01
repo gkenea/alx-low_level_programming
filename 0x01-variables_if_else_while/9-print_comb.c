@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	char d = '0';
+	int d;
 
-	while (d <= '9')
+	for (d = '0'; d <= '9'; d++)
 	{
 		putchar(d);
 		if (d != '9')
@@ -17,8 +17,6 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-
-		++d;
 	}
 
 	putchar('\n');
