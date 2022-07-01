@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	int i = '0';
 
@@ -14,7 +14,7 @@ int main (void)
 		putchar(i);
 		i++;
 	}
-	
+
 	i = 'a';
 
 	while (i <= 'f')
