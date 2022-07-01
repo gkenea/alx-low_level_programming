@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /***
- * main - Prints lowercaes except q and e
+ * main - Prints lowercases except q and e
  *
  * Return: Always 0 (Success)
  */
@@ -11,11 +11,11 @@ int main(void)
 
 	while (d <= 'z')
 	{
-		if ( d != 'q' && d != 'e')
+		if (d != 'q' && d != 'e')
 		{
 			putchar(d);
 		}
-	
+
 		d++;
 	}
 
