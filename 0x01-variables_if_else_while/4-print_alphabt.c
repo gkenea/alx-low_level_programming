@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /***
- * main - Prints lowercases except q and e
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
