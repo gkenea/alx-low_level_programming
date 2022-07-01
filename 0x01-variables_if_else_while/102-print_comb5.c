@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * main - Entry point
  *
@@ -8,40 +8,38 @@
 int main(void)
 {
 	int c;
-	int d;
-	int e;
-	int f = 0;
+	int i;
+	int k;
+	int j;
 
-	while (f < 10)
+	for (c = 48; c <= 57; c++)
 	{
-		while (e < 10)
+		for (i = 48; i <= 57; i++)
 		{
-			d = 0;
-			while (d < 10)
-			{	
-				c = 0;
-				while (c < 10)
-				{	
-					if (!(f == c && e == d))
-					{	
-						putchar('0' + f);
-						putchar('0' + e);
+			for (k = 48; k <= 57; k++)
+			{
+				for (j = 48; j <= 57; j++)
+				{
+					if (((k + j) > (c + i) &&  k >= c) || c < k)
+					{
+						putchar(c);
+						putchar(i);
 						putchar(' ');
-						putchar('0' + d);
-						putchar('0' + c);
-						if (!(f + e == 18 && c + d == 17 && d == 9))
+						putchar(k);
+						putchar(j);
+						if (c + i + k + j == 227 && c == 57)
+						{
+							break;
+						}
+						else
 						{
 							putchar(',');
 							putchar(' ');
-						}	
+						}
 					}
-					c++;
 				}
-				d++;
 			}
-			e++;
 		}
-		f++;
 	}
 
 	putchar('\n');
