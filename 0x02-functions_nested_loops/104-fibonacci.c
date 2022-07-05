@@ -3,16 +3,16 @@
 /**
  * main - Entry point
  *
- * return: Always 0
+ * Return: Always 0
  */
 int main(void)
 {
 	unsigned long int i, i0, i1, j, j0, j1, e, e0, e1, y, k;
-	
+
 	i = 1;
 	j = 2;
 	e = i + j;
-	
+
 	printf("%lu, ", i);
 	printf("%lu, ", j);
 	for (y = 3; y < 89; y++)
