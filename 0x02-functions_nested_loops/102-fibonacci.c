@@ -14,7 +14,7 @@ int main(void)
 
 	printf("%ld, ", a);
 	printf("%ld, ", b);
-	
+
 	for (i = 3; i <= 50; i++)
 	{
 		x = a + b;
