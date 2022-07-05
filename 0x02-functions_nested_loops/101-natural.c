@@ -8,16 +8,16 @@
  */
 int main(void)
 {
-	int i = 0;
+	int e = 0;
 	int sum = 0;
-	
-	while (i < 1024)
+
+	while (e < 1024)
 	{
-		if (i % 3 == 0 || i % 5 == 0)
+		if (e % 3 == 0 || e % 5 == 0)
 		{
-			sum += i;
+			sum += e;
 		}
-		i++;
+		e++;
 	}
 	printf("%i\n", sum);
 	return (0);
