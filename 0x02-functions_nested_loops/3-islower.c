@@ -2,7 +2,7 @@
 
 /**
  * _islower - Entry point
- *
+ * @c : character to check the case
  * Return: Always 0
  */
 int _islower(int c)
