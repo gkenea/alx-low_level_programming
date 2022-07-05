@@ -7,22 +7,24 @@
  */
 int main(void)
 {
-	int i = 0;
-	long int a = 0, b = 1, c;
+	long int a, b, x;
+	int i;
+	a = 1;
+	b = 2;
 
-	while (i < 50)
+	printf("%ld, ", a);
+	printf("%ld, ", b);
+	
+	for (i = 3; i <= 50; i++)
 	{
-		c = a + b;
+		x = a + b;
 		a = b;
-		b = c;
-		printf ("%lu", c);
-		
-		if (i < 49)
-		{
-		printf(",");
-		}
-		i++;
+		b = x;
+		if (i != 50)
+			printf("%li, ", x);
+		else
+			printf("%li", x);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }	
