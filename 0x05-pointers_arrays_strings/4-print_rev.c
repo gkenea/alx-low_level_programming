@@ -6,19 +6,20 @@
  * Return: string in reverse
  */
 
-
 void print_rev(char *s)
 {
-	int fcounter = 0;
-	int i, n;
+	int count = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (*s != '\0')
 	{
-		fcounter++;
+		s++;
+		count++;
 	}
-	for (n = (fcounter - 1); n >= 0; n--)
+	while (count > 0)
 	{
-		_putchar(s[n]);
+		s--;
+		_putchar(*s);
+		count--;
 	}
 	_putchar('\n');
 }
