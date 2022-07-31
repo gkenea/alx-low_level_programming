@@ -19,7 +19,7 @@ int _strlen(char *s)
 }
 
 /**
- * tr_concat - Concat 2 strings.
+ * str_concat - Concat 2 strings.
  * @s1: string
  * @s2: string
  * Return: char
